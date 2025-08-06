@@ -66,9 +66,10 @@ Thanks to the CodeAlpha team for providing this wonderful opportunity to apply a
 
 💡 Screenshots
 
-<img width="1366" height="603" alt="image" src="https://github.com/user-attachments/assets/77396719-bfe3-411c-9fce-4893ea42614f" />
-<img width="1350" height="614" alt="image" src="https://github.com/user-attachments/assets/a253fce8-3fe9-4548-9926-5205a4041db8" />
-<img width="1348" height="606" alt="image" src="https://github.com/user-attachments/assets/47a6f3fe-04c0-4aa1-8975-f6ea5b6ea6b2" />
+<img width="1350" height="614" alt="image" src="https://github.com/user-attachments/assets/73fd530b-5e99-41a0-9dff-21801c32bf45" />
+<img width="1348" height="606" alt="image" src="https://github.com/user-attachments/assets/097a25e3-9e5d-4b0e-8cf2-39b0e3b9a831" />
+<img width="1366" height="603" alt="image" src="https://github.com/user-attachments/assets/0e381440-581c-483b-92a8-915c058a5f26" />
+
 
 
 
