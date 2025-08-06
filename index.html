@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Photo Gallery</title>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="scroll-progress"></div>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo"><i class="fas fa-camera-retro"></i> PhotoGallery</h1>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+        <nav class="nav" id="navMenu">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Nature">Nature</button>
+          <button class="filter-btn" data-filter="Architecture">
+            Architecture
+          </button>
+          <button class="filter-btn" data-filter="Travel">Travel</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="hero">
+          <h2 class="hero-title">
+            Discover <span class="highlight">Amazing</span> Photography
+          </h2>
+          <p class="hero-subtitle">
+            Explore our curated collection of stunning images from around the
+            world.
+          </p>
+        </section>
+
+        <section class="gallery-section">
+          <div class="gallery-grid" id="gallery"></div>
+        </section>
+      </div>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <button class="close-btn" aria-label="Close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button class="nav-btn prev-btn" aria-label="Previous">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="nav-btn next-btn" aria-label="Next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <img id="lightbox-image" src="" alt="Preview" />
+        <div class="lightbox-info">
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-description"></p>
+          <div class="lightbox-counter">
+            <span id="current-index">1</span> / <span id="total-images">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>
+          &copy; 2025 <span class="highlight">Muhammad Ibraheem</span>. All
+          rights reserved.
+        </p>
+        <p>
+          This gallery is developed for educational and personal portfolio use
+          only. Please do not redistribute without permission.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://facebook.com/Ibraheem.ibrar2513"
+            target="_blank"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://github.com/ibraheem2513"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ibraheem09/"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
